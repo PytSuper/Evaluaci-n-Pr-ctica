@@ -13,7 +13,7 @@ Consideraciones:
 '''
 import os
 from cola import Cola
-from pila import Pila
+from pila import Pila # Importar la clase Pila desde el módulo pila
 
 
 def clear(): 

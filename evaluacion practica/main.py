@@ -62,7 +62,7 @@ def mostrar_pila(pila):
     if pila.esta_vacia():
         print("Pila vacía.")
     else:
-        actual = pila.cima
+        actual = pila.cima()
         print("Pila (cima -> base):", end=" ")
         while actual:
             print(actual.valor, end=" -> ")

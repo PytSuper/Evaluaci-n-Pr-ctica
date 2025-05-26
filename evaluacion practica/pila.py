@@ -29,8 +29,8 @@ class Pila:
         return None # devuelve dato vacio si no hay elementos en la pila
 
     def cima(self):
-        return self._cima_nodo
-        
+        return self._cima_nodo # Ensures the actual top node is returned
+
 
 
 
